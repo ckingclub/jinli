@@ -4,7 +4,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
  <view class="usermotto">
-  <button type="primary" bindtap="comfim" loading="{{loading}}" disabled="{{disabled}}">{{confirm}}</button>
+  <button type="primary" bindtap="doLogin" loading="{{loading}}" disabled="{{disabled}}">{{confirm}}</button>
   <button type="default" bindtap="cancel" loading="{{loading}}" disabled="{{disabled}}">{{cancel}}</button>
   </view>
 </view>
